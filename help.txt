@@ -1,0 +1,13 @@
+https://www.cbsofyalioglu.com/code/next-js-development-within-nx-workspace/
+
+install tailwind 
+    nx g @nx/react:setup-tailwind 
+add new nest app
+    nx generate @nrwl/nest:application 
+add new next app
+    nx generate @nrwl/next:application server
+
+add typescript library
+    npx nx g @nx/js:lib mylib --bundler=tsc
+
+nx generate remove  [name]
